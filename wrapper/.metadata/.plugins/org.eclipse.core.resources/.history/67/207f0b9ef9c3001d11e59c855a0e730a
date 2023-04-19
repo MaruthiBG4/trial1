@@ -1,0 +1,25 @@
+package wrapperExamplepack;
+
+public class Wrapper {
+
+	public static void main(String[] args) {
+		/*
+		 * int a= 20; Integer i = Integer.valueOf(a); //converting int to integer//
+		 * Integer j = a; System.out.println(a+ " " +i+" " +j);
+		 */
+		
+		
+		String str = "12";
+		int num3 = Integer.parseInt(str);
+		System.out.println(num3*2);
+		/*
+		 * public static toInt(String s) { return Integer.parseInt(s); //to get the
+		 * corresponding primitive int value }
+		 */
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package wrapperExamplepack;
+
+public class Wrapper {
+
+	public static void main(String[] args) {
+		int a= 20;
+		Integer i = Integer.valueOf(a);  //converting int to integer//
+		Integer j = a;
+
+	}
+
+}
